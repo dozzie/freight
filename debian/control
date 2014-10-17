@@ -1,0 +1,11 @@
+Source: freight
+Maintainer: Richard Crowley <r@rcrowley.org>
+Section: admin
+Priority: extra
+Build-Depends: debhelper (>> 7.0.0), make
+Homepage: https://github.com/rcrowley/freight
+
+Package: freight
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, dash, dpkg, gnupg
+Description: another set of Debian repository maintenance tools
