@@ -1,0 +1,14 @@
+freight (0.3.6-1) stable; urgency=low
+
+  * Fixed generating SHA-1 and SHA-256 sections in Release files
+  * Added support for bzip2 and xz tarball compression methods
+  * freight-add now doesn't create new repositories automatically (that could
+    lead to accidentally created repositories)
+
+ -- Stanislaw Klekot <dozzie@jarowit.net>  Thu, 20 Oct 2016 17:23:16 +0200
+
+freight (0.3.5-1) stable; urgency=low
+
+  * Initial release.
+
+ -- Stanislaw Klekot <dozzie@jarowit.net>  Fri, 17 Oct 2014 18:23:43 +0200

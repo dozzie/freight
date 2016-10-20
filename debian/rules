@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	: nothing
+
+override_dh_auto_build:
+	: nothing
+
+override_dh_auto_install:
+	make install prefix=/usr sysconfdir=/etc DESTDIR=$(CURDIR)/debian/tmp
